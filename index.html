@@ -20,16 +20,19 @@
 
     <!-- Custom styles for this template -->
     <link href="styles/theme.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
 
-<!-- Title -->
-<div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">
-    Adamouization Music
-</div>
-<div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">
-    Monaco & Bath
+<!-- Header -->
+<div id="header">
+    <script>
+        $("#header").load("views/shared/header.html");
+    </script>
 </div>
 
 <!-- Navbar -->
@@ -48,16 +51,16 @@
                     </a>
                 </li>
                 <li class="nav-item px-lg-4">
-                    <a class="nav-link text-uppercase text-expanded" href="views/mixtapes.html">Mixtapes</a>
+                    <a class="nav-link text-uppercase text-expanded" href="views/pages/mixtapes.html">Mixtapes</a>
                 </li>
                 <li class="nav-item px-lg-4">
-                    <a class="nav-link text-uppercase text-expanded" href="views/mashups.html">Mashups</a>
+                    <a class="nav-link text-uppercase text-expanded" href="views/pages/mashups.html">Mashups</a>
                 </li>
                 <li class="nav-item px-lg-4">
-                    <a class="nav-link text-uppercase text-expanded" href="views/about.html">About</a>
+                    <a class="nav-link text-uppercase text-expanded" href="views/pages/about.html">About</a>
                 </li>
                 <li class="nav-item px-lg-4">
-                    <a class="nav-link text-uppercase text-expanded" href="views/contact.html">Contact</a>
+                    <a class="nav-link text-uppercase text-expanded" href="views/pages/contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -68,15 +71,11 @@
 <h1>Home</h1>
 
 <!-- Footer -->
-<footer class="bg-faded text-center py-5">
-    <div class="container">
-        <p class="m-0">Copyright &copy; Adam Jaamour 2017</p>
-    </div>
-</footer>
-
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<div id="footer">
+    <script>
+        $("#footer").load("views/shared/footer.html");
+    </script>
+</div>
 
 </body>
 </html>
