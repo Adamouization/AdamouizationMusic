@@ -1,7 +1,13 @@
+/* Custom CSS styles */
+
 .page-title {
     color: white;
 }
 
 .page-div {
     padding: 15px 40px;
+}
+
+hr {
+    opacity: 0;
 }
