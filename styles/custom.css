@@ -2,6 +2,7 @@
 
 .page-title {
     color: white;
+    font-weight: bold;
 }
 
 .page-div {
@@ -10,4 +11,10 @@
 
 hr {
     opacity: 0;
+}
+
+/* used to invert colors of social icons images */
+img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
