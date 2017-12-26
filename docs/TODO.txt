@@ -3,12 +3,13 @@ List of features to add:
 
 _____ FEATURES _____
 todo - populate home, about and contact pages
-todo - add social networks to footer
 todo - add email form in contact section
 todo - add google maps API in contact form
+todo - add knockoutjs to dynamically relink header and footer
 
 _____ DESIGN _____
 todo - make background scroll with rest of page. Repeat background image when end of it is reached
 todo - make background more user-friendly (blur, darker, white opaque background in front, ...)
 
 _____ COMPLETED _____
+add social networks to footer
