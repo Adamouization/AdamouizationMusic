@@ -22,6 +22,9 @@
     <link href="../../styles/sticky-footer.css" rel="stylesheet">
     <link href="../../styles/footer-distributed.css" rel="stylesheet">
 
+    <!-- Custom scripts -->
+    <script src="../../scripts/footer-loader.js"></script>
+
     <!-- Bootstrap core JavaScript -->
     <script src="../../vendor/jquery/jquery.min.js"></script>
     <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -89,11 +92,11 @@
 </div>
 
 <!-- Footer -->
-<footer class="bg-faded text-center py-5">
-    <div class="container">
-        <p class="m-0">Copyright &copy; Adam Jaamour 2017</p>
-    </div>
-</footer>
+<div id="footer">
+    <script>
+        loadFooter();
+    </script>
+</div>
 
 </body>
 </html>

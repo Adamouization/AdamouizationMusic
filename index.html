@@ -18,11 +18,14 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic"
           rel="stylesheet" type="text/css">
 
-    <!-- Custom styles for this template -->
-    <link href="styles/theme.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="styles/theme.css" rel="stylesheet"> <!-- theme -->
     <link href="styles/custom.css" rel="stylesheet">
     <link href="styles/sticky-footer.css" rel="stylesheet">
     <link href="styles/footer-distributed.css" rel="stylesheet">
+
+    <!-- Custom scripts -->
+    <script src="scripts/footer-loader.js"></script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -89,13 +92,14 @@
         <iframe width="100%" height="166" scrolling="no" frameborder="no"
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/146231698&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true">
         </iframe>
+        <script>getPageName()</script>
     </div>
 </div>
 
 <!-- Footer -->
 <div id="footer">
     <script>
-        $("#footer").load("views/shared/footer.html");
+        loadFooter();
     </script>
 </div>
 
