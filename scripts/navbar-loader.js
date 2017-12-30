@@ -105,6 +105,22 @@ function loadNavbar() {
             "                </li>\n" +
             "            </ul>";
     } else if (filename.indexOf("legal") !== -1) {
-        //todo
+        div.innerHTML += "<ul class=\"navbar-nav mx-auto\">\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"../../index.html\">Home</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"mixtapes.html\">Mixtapes</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"mashups.html\">Mashups</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"about.html\">About</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"contact.html\">Contact</a>\n" +
+            "                </li>\n" +
+            "            </ul>";
     }
 }

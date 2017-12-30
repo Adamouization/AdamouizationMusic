@@ -5,7 +5,6 @@ _____ FEATURES _____
 todo - populate home, about and contact pages
 todo - add email form in contact section
 todo - add google maps API in contact form
-todo - add legal html page (with soundcloud stuff included)
 
 _____ DESIGN _____
 todo - make background scroll with rest of page. Repeat background image when end of it is reached
@@ -15,3 +14,4 @@ todo - add favicon
 _____ COMPLETED _____
 add social networks to footer
 add knockoutjs to dynamically relink header and footer (or pure js)
+add legal html page (with soundcloud stuff included)
