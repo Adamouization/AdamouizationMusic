@@ -104,7 +104,7 @@ function loadNavbar() {
             "                    </a>\n" +
             "                </li>\n" +
             "            </ul>";
-    } else if (filename.indexOf("legal") !== -1) {
+    } else if (filename.indexOf("terms") !== -1) {
         div.innerHTML += "<ul class=\"navbar-nav mx-auto\">\n" +
             "                <li class=\"nav-item px-lg-4\">\n" +
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"../../index.html\">Home</a>\n" +
