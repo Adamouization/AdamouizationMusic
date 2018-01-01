@@ -15,11 +15,17 @@
     color: #FFF;
 }
 
+/* change paragraph link in footer */
+.footer-link {
+    color:  #8f9296;
+    text-decoration: underline;
+}
+
 hr {
     opacity: 0;
 }
 
-/* used to invert colors of social icons images */
+/* Inverts colors of social icons images */
 img {
     -webkit-filter: invert(1);
     filter: invert(1);
