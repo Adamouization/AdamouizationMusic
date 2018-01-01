@@ -20,6 +20,10 @@
     color:  #8f9296;
     text-decoration: underline;
 }
+.contact-link {
+    color:  white;
+    text-decoration: underline;
+}
 
 hr {
     opacity: 0;
