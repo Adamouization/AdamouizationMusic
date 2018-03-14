@@ -29,8 +29,14 @@ hr {
     opacity: 0;
 }
 
-/* Inverts colors of social icons images */
-img {
+/* google maps div */
+#google_map_monaco {
+    height: 400px;
+    width: 40%;
+}
+
+/* Inverts colors of social icons images in the footer */
+.footer-icons {
     -webkit-filter: invert(1);
     filter: invert(1);
 }

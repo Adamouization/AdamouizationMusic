@@ -27,6 +27,7 @@
     <script src="../../scripts/footer-loader.js"></script>
     <script src="../../scripts/navbar-loader.js"></script>
     <script src="../../scripts/helpers.js"></script>
+    <script src="../../scripts/google-maps.js"></script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="../../vendor/jquery/jquery.min.js"></script>
@@ -54,6 +55,15 @@
     <!-- Content -->
     <div class="page-div">
         <h1 class="page-title">Contact</h1>
+
+        <!-- Google Maps -->
+        <div id="google_map_monaco"></div>
+        <script>
+            initMap()
+        </script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAeFPSeBmln2c1NwhjjQz9TN7Jw6KzH6I&callback=initMap">
+        </script>
     </div>
 
 </div>
