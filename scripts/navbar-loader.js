@@ -18,6 +18,9 @@ function loadNavbar() {
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"views/pages/mashups.html\">Mashups</a>\n" +
             "                </li>\n" +
             "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"views/pages/playlists.html\">Playlists</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"views/pages/about.html\">About</a>\n" +
             "                </li>\n" +
             "                <li class=\"nav-item px-lg-4\">\n" +
@@ -36,6 +39,9 @@ function loadNavbar() {
             "                </li>\n" +
             "                <li class=\"nav-item px-lg-4\">\n" +
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"mashups.html\">Mashups</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"playlists.html\">Playlists</a>\n" +
             "                </li>\n" +
             "                <li class=\"nav-item px-lg-4\">\n" +
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"about.html\">About</a>\n" +
@@ -58,6 +64,32 @@ function loadNavbar() {
             "                    </a>\n" +
             "                </li>\n" +
             "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"playlists.html\">Playlists</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"about.html\">About</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"contact.html\">Contact</a>\n" +
+            "                </li>\n" +
+            "            </ul>";
+    } else if (filename.indexOf("playlists") !== -1) {
+        div.innerHTML += "<ul class=\"navbar-nav mx-auto\">\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"../../index.html\">Home</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"mixtapes.html\">Mixtapes</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"mashups.html\">Mashups</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item active px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"playlists.html\">Playlists\n" +
+            "                        <span class=\"sr-only\">(current)</span>\n" +
+            "                    </a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"about.html\">About</a>\n" +
             "                </li>\n" +
             "                <li class=\"nav-item px-lg-4\">\n" +
@@ -74,6 +106,9 @@ function loadNavbar() {
             "                </li>\n" +
             "                <li class=\"nav-item px-lg-4\">\n" +
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"mashups.html\">Mashups</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"playlists.html\">Playlists</a>\n" +
             "                </li>\n" +
             "                <li class=\"nav-item active px-lg-4\">\n" +
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"about.html\">About\n" +
@@ -96,6 +131,9 @@ function loadNavbar() {
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"mashups.html\">Mashups</a>\n" +
             "                </li>\n" +
             "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"playlists.html\">Playlists</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"about.html\">About</a>\n" +
             "                </li>\n" +
             "                <li class=\"nav-item active px-lg-4\">\n" +
@@ -114,6 +152,9 @@ function loadNavbar() {
             "                </li>\n" +
             "                <li class=\"nav-item px-lg-4\">\n" +
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"mashups.html\">Mashups</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"playlists.html\">Playlists</a>\n" +
             "                </li>\n" +
             "                <li class=\"nav-item px-lg-4\">\n" +
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"about.html\">About</a>\n" +
