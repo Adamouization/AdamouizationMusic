@@ -23,7 +23,7 @@ function initMap() {
     };
 
     // create the map with initial settings
-    var map = new google.maps.Map(document.getElementById('google_map_monaco'), {
+    var map = new google.maps.Map(document.getElementById('google_map'), {
         zoom: 5,
         center: center
     });

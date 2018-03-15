@@ -55,17 +55,22 @@
     <!-- Content -->
     <div class="page-div">
         <h1 class="page-title">Contact</h1>
-
-        <!-- Google Maps -->
-        <div id="google_map_monaco"></div>
-        <script>
-            initMap()
-        </script>
-        <script async defer
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAeFPSeBmln2c1NwhjjQz9TN7Jw6KzH6I&callback=initMap">
-        </script>
+        <div style="width: 100%">
+            <div style="float: left; width: 30%;">
+                <!-- Google Maps -->
+                <div id="google_map"></div>
+                <script>
+                    initMap()
+                </script>
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAeFPSeBmln2c1NwhjjQz9TN7Jw6KzH6I&callback=initMap">
+                </script>
+            </div>
+            <div style="float: left">
+                <p>add contact information here</p> <!-- todo - add some contact information-->
+            </div>
+        </div>
     </div>
-
 </div>
 
 <!-- Footer -->

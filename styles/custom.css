@@ -30,9 +30,9 @@ hr {
 }
 
 /* google maps div */
-#google_map_monaco {
+#google_map {
     height: 400px;
-    width: 40%;
+    width: 100%;
 }
 
 /* Inverts colors of social icons images in the footer */
