@@ -11,22 +11,21 @@ function initMap() {
             lng: 7.421
         },
         {
-            name: 'Bicester',
-            lat: 51.8999800,
-            lng: -1.1535700
+            name: 'Bath',
+            lat: 51.3751000,
+            lng: -2.3617200
         }
 
     ];
     var center = {
         lat: 47.812,
-        lng: 5.199
+        lng: 3.199
     };
 
     // create the map with initial settings
     var map = new google.maps.Map(document.getElementById('google_map_monaco'), {
         zoom: 5,
-        center: center,
-        mapTypeId: 'hybrid'
+        center: center
     });
 
     // create and place the markers on the map
