@@ -1,5 +1,10 @@
 /* Custom CSS styles */
 
+/* Global variables */
+:root {
+    --contact-icon-size: 32px;
+}
+
 .page-title {
     color: white;
     font-weight: bold;
@@ -39,4 +44,38 @@ hr {
 .footer-icons {
     -webkit-filter: invert(1);
     filter: invert(1);
+}
+
+/* Aligning icon with text for contact details */
+.contact-box {
+    --border-radius: 30px;
+    -moz-border-radius: var(--border-radius);
+    -webkit-border-radius: var(--border-radius);
+    border-radius: var(--border-radius);
+    border: solid 2px black;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.single-contact-container {
+    margin: 30px;
+}
+.contact-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+#phone-icon,
+#mail-icon {
+    height: var(--contact-icon-size);
+    width: var(--contact-icon-size);
+    background: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+#phone-icon {
+    background:  url("../images/telephone.png");
+}
+#mail-icon {
+    background:  url("../images/mail.png");
 }

@@ -55,9 +55,11 @@
     <!-- Content -->
     <div class="page-div">
         <h1 class="page-title">Contact</h1>
+
         <div style="width: 100%">
+
+            <!-- Google Maps -->
             <div style="float: left; width: 30%;">
-                <!-- Google Maps -->
                 <div id="google_map"></div>
                 <script>
                     initMap()
@@ -66,9 +68,29 @@
                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAeFPSeBmln2c1NwhjjQz9TN7Jw6KzH6I&callback=initMap">
                 </script>
             </div>
-            <div style="float: left">
-                <p>add contact information here</p> <!-- todo - add some contact information-->
+
+            <!-- Contact details -->
+            <div>
+                <div style="float: left" class="contact-box">
+                    <div class="single-contact-container">
+                        <div id="mail-icon"></div>
+                        <span class="contact-text">adam@jaamour.com</span>
+                    </div>
+
+                    <div class="single-contact-container">
+                        <div id="phone-icon"></div>
+                        <span class="contact-text">+44 7927 986941 (Bath, UK)</span>
+                    </div>
+
+                    <div class="single-contact-container">
+                        <div id="phone-icon"></div>
+                        <span class="contact-text">+33 6 11 90 50 19 (Monaco)</span>
+                    </div>
+                </div>
             </div>
+
+
+
         </div>
     </div>
 </div>
