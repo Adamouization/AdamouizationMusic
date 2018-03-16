@@ -35,9 +35,21 @@ hr {
 }
 
 /* google maps div */
-#google_map {
+#google_map { /* the map itself*/
     height: 400px;
-    width: 100%;
+    width: 50%;
+    float: right;
+    margin-right: 50px;
+}
+
+/* Contact page containers, used to divided page vertically in 2 halves in order to center the map and contact box */
+.map-container {
+    float: left;
+    width: 50%;
+}
+.contact-information-container {
+    float: left;
+    margin-left: 50px;
 }
 
 /* Inverts colors of social icons images in the footer */
