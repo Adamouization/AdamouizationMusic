@@ -43,3 +43,42 @@ function initMap() {
         })
     });
 }
+
+/**
+ * Creates a script DOM element to load the map.
+ */
+function loadGoogleMapsUrl() {
+    var script = document.createElement('script'),
+        googleMapsApiKey = getGoogleMapsApiKey();
+
+    script.type = 'text/javascript';
+    script.src = 'https://maps.googleapis.com/maps/api/js?key=' + googleMapsApiKey +'&callback=initMap';
+    document.body.appendChild(script);
+}
+
+/**
+ * Retrieves the google map api key from a txt file.
+ * @returns {{fileContents: string, init: init}}
+ */
+function getGoogleMapsApiKey() {
+    // todo - implement a way of reading from file
+    // var GOOGLE_MAP_KEY = {
+    //     fileContents: "None",
+    //     init: function(){
+    //         $.ajax({
+    //             url: "/docs/google_maps_api_key.txt",
+    //             async: false,
+    //             success: function (data) {
+    //                 debugger;
+    //                 GOOGLE_MAP_KEY.fileContents = data;
+    //             },
+    //             error: function (msg) {
+    //                 console.log(msg.status + " Google Maps API Key " + msg.statusText)
+    //             }
+    //         });
+    //     }
+    // };
+    // console.log("api key: " + GOOGLE_MAP_KEY);
+    // return GOOGLE_MAP_KEY;
+    return "key_here";
+}
