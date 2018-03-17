@@ -76,6 +76,7 @@ hr {
 .contact-text {
     display: inline-block;
     vertical-align: middle;
+    color: black;
 }
 #phone-icon,
 #mail-icon {

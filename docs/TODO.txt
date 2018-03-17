@@ -8,7 +8,6 @@ todo - add email form in contact section
 todo - add google maps API in contact form
 todo - add small descriptions for each page (Home, mixtapes, mashups, playlists)
 todo - add tracklists
-todo - format email creation when email click
 
 _____ DESIGN _____
 todo - make background scroll with rest of page. Repeat background image when end of it is reached
@@ -22,3 +21,4 @@ add social networks to footer
 add knockoutjs to dynamically relink header and footer (or pure js)
 add legal html page (with soundcloud stuff included)
 populate contact page
+format email creation when email click
