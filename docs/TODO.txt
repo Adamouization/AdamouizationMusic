@@ -15,6 +15,7 @@ todo - make background more user-friendly (blur, darker, white opaque background
 todo - add favicon
 todo - hide google api key (keep local only add to .gitignore)
 todo - separate page specific stylesheets in different CSS files
+todo - make background or text different for mobile version
 
 _____ COMPLETED _____
 add social networks to footer
@@ -22,3 +23,4 @@ add knockoutjs to dynamically relink header and footer (or pure js)
 add legal html page (with soundcloud stuff included)
 populate contact page
 format email creation when email click
+added logo dynamically

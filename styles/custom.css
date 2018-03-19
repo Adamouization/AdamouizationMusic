@@ -3,6 +3,7 @@
 /* Global variables */
 :root {
     --contact-icon-size: 32px;
+    --logo-width: 132px;
 }
 
 .page-title {
@@ -56,6 +57,16 @@ hr {
 .footer-icons {
     -webkit-filter: invert(1);
     filter: invert(1);
+}
+
+/* Logo placed in navbar */
+.header-logo {
+    vertical-align: top;
+    width: var(--logo-width);
+    height: 78px;
+}
+.header-and-logo-container {    /* move logo + header to the left by same amount as the logo width */
+    padding-right: var(--logo-width);
 }
 
 /* Aligning icon with text for contact details */
