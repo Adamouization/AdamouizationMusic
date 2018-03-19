@@ -4,10 +4,10 @@ List of features to add:
 _____ FEATURES _____
 todo - populate home page
 todo - populate about page
-todo - add email form in contact section
 todo - add small descriptions for each page (Home, mixtapes, mashups, playlists)
 todo - add tracklists
 todo - update terms page with 3rd party websites used and latest date
+todo - add google analytics
 
 _____ DESIGN _____
 todo - make background scroll with rest of page. Repeat background image when end of it is reached
@@ -25,3 +25,6 @@ populate contact page
 format email creation when email click
 added logo dynamically
 add favicon
+
+_____ SCRAPPED _____
+add email form in contact section
