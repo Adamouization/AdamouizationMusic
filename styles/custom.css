@@ -103,3 +103,16 @@ hr {
 #mail-icon {
     background:  url("../images/mail.png");
 }
+
+/* Picture in the about me section */
+.about-me-picture-container {
+    width: 400px;
+    min-height: 400px;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+}
+.about-me-picture {
+    max-width: 100%;
+    border-radius: 50%;
+}
