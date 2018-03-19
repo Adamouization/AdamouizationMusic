@@ -6,15 +6,19 @@
     --logo-width: 132px;
 }
 
+/* site-wide styling */
+hr {
+    opacity: 0;
+}
 .page-title {
     color: white;
     font-weight: bold;
 }
-
 .page-div {
     padding: 15px 40px;
 }
 
+/* add black transparent background to legal terms page for readability */
 .legal-text {
     background-color: rgba(0,0,0,0.25);
     padding: 10px 15px;
@@ -31,8 +35,10 @@
     text-decoration: underline;
 }
 
-hr {
-    opacity: 0;
+/* Inverts colors of social icons images in the footer */
+.footer-icons {
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
 
 /* google maps div */
@@ -51,12 +57,6 @@ hr {
 .contact-information-container {
     float: left;
     margin-left: 50px;
-}
-
-/* Inverts colors of social icons images in the footer */
-.footer-icons {
-    -webkit-filter: invert(1);
-    filter: invert(1);
 }
 
 /* Logo placed in navbar */
