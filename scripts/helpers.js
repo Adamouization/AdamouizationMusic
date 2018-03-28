@@ -14,14 +14,14 @@ function getPageFilename() {
 function showPopup(popupId) {
     var key = "";
     switch (popupId) {
-        case 'mixtape1button':
-            key = 'mixtape1';
+        case 'click-mixtape-1':
+            key = 'mixtape-1';
             break;
-        case 'mixtape2button':
-            key = 'mixtape2';
+        case 'click-mixtape-2':
+            key = 'mixtape-2';
             break;
-        case 'mixtape3button':
-            key = 'mixtape3';
+        case 'click-mixtape-3':
+            key = 'mixtape-1';
             break;
         default:
             key = "empty";
