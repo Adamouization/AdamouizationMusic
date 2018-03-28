@@ -11,11 +11,15 @@ hr {
     opacity: 0;
 }
 .page-title {
-    color: white;
     font-weight: bold;
 }
 .page-div {
     padding: 15px 40px;
+}
+
+/* Display headers text in white */
+h1, h2 {
+    color: white;
 }
 
 /* add black transparent background to legal terms page for readability */
