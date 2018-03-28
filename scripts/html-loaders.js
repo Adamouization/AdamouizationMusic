@@ -14,8 +14,8 @@ function loadHeader() {
  * Dynamically loads the navigation bar for the current page.
  */
 function loadNavbar() {
-    var div = document.getElementById("navbarResponsive");
-    var filename = getPageFilename();
+    var div = document.getElementById("navbarResponsive"),
+        filename = getPageFilename();
     if (filename.indexOf("index") !== -1) {
         div.innerHTML += "<ul class=\"navbar-nav mx-auto\">\n" +
             "                <li class=\"nav-item active px-lg-4\">\n" +
