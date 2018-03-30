@@ -7,6 +7,9 @@
 
     <title>AdamouizationMusic</title>
 
+    <!-- Favicon -->
+    <link rel='shortcut icon' href='../../images/favicon.ico' />
+
     <!-- Bootstrap core CSS -->
     <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -21,10 +24,11 @@
     <link href="../../styles/custom.css" rel="stylesheet">
     <link href="../../styles/sticky-footer.css" rel="stylesheet">
     <link href="../../styles/footer-distributed.css" rel="stylesheet">
+    <link href="../../styles/playlists.css" rel="stylesheet">
+    <link href="../../styles/popups.css" rel="stylesheet">
 
     <!-- Custom scripts -->
-    <script src="../../scripts/footer-loader.js"></script>
-    <script src="../../scripts/navbar-loader.js"></script>
+    <script src="../../scripts/html-loaders.js"></script>
     <script src="../../scripts/helpers.js"></script>
     <script src="../../scripts/google-maps.js"></script>
 
@@ -40,7 +44,7 @@
     <!-- Header -->
     <div id="header">
         <script>
-            $("#header").load("../shared/header.html");
+            loadHeader();
         </script>
     </div>
 
@@ -54,10 +58,39 @@
     <!-- Content -->
     <div class="page-div">
         <h1 class="page-title">Contact</h1>
-        <div id="contact-map" style="width:400px;height:400px"></div>
+        <div style="width: 100%; overflow: auto"> <!-- Div used to separate page in 2 centered halves -->
+            <!-- Google Maps -->
+            <div class="map-container">
+                <div id="google_map"></div>
+                <script>
+                    initMap()
+                </script>
+                <script>
+                    loadGoogleMapsUrl()
+                </script>
+            </div>
+            <!-- Contact details -->
+            <div class="contact-information-container">
+                <div style="float: left" class="contact-box">
+                    <!-- email -->
+                    <div class="single-contact-container">
+                        <a id="mail-icon" href="mailto:adam@jaamour.com"></a>
+                        <a class="contact-text" href="mailto:adam@jaamour.com">adam@jaamour.com</a>
+                    </div>
+                    <!-- UK phone number -->
+                    <div class="single-contact-container">
+                        <div id="phone-icon"></div>
+                        <span class="contact-text">+44 7927 986941 (Bath, UK)</span>
+                    </div>
+                    <!-- French phone number -->
+                    <div class="single-contact-container">
+                        <div id="phone-icon"></div>
+                        <span class="contact-text">+33 6 11 90 50 19 (Monaco)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=<KEY>&callback=myMap"></script>
-
 </div>
 
 <!-- Footer -->

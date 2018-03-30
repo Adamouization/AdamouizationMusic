@@ -1,0 +1,11 @@
+.playlist-row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
+.playlist-column {
+    display: table-cell;
+    padding: 10px;
+}
