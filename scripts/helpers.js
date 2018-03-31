@@ -21,7 +21,7 @@ function showPopup(popupId) {
             key = 'mixtape-2';
             break;
         case 'click-mixtape-3':
-            key = 'mixtape-1';
+            key = 'mixtape-3';
             break;
         default:
             key = "empty";
