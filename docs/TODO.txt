@@ -5,7 +5,6 @@ _____ FEATURES _____
 todo - populate home page
 todo - populate about page with picture, text, favourite DJs and music styles i listen to
 todo - add small descriptions for each page (Home, mixtapes, mashups, playlists)
-todo - add tracklists to mixtapes and mashups? (as a dialogue form or expendable text)
 todo - update terms page with 3rd party websites used and latest date
 todo - add google analytics
 
@@ -29,6 +28,7 @@ format email creation when email click
 added logo dynamically
 add favicon
 separate page specific stylesheets in different CSS files (reorganize stylesheet)
+add tracklists to mixtapes and mashups? (as a dialogue form or expendable text)
 
 _____ SCRAPPED _____
 add email form in contact section
