@@ -19,7 +19,7 @@ function showPopup(popupId) {
             break;
         case 'click-mixtape-2':
             key = 'mixtape-2';
-            break;
+        break;
         case 'click-mixtape-3':
             key = 'mixtape-3';
             break;
@@ -44,7 +44,5 @@ function showPopup(popupId) {
     if (key !== 'empty') {
         var popup = document.getElementById(key);
         popup.classList.toggle("show");
-    } else {
-        // todo - add an error message
     }
 }
