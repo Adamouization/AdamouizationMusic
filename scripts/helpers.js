@@ -23,6 +23,21 @@ function showPopup(popupId) {
         case 'click-mixtape-3':
             key = 'mixtape-3';
             break;
+        case 'click-mashup-1':
+            key = 'mashup-1';
+            break;
+        case 'click-mashup-2':
+            key = 'mashup-2';
+            break;
+        case 'click-mashup-3':
+            key = 'mashup-3';
+            break;
+        case 'click-mashup-4':
+            key = 'mashup-4';
+            break;
+        case 'click-mashup-5':
+            key = 'mashup-5';
+            break;
         default:
             key = "empty";
     }
