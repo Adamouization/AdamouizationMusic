@@ -120,3 +120,11 @@ h1, h2 {
     max-width: 100%;
     border-radius: 50%;
 }
+
+/* Styling for the titles of each soundcloud link with the "view tracklist" popup */
+.soundcloud-track-title-with-popup-div {
+    clear: both;
+}
+.soundcloud-track-title {
+    float: left;
+}
