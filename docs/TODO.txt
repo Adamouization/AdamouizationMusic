@@ -3,7 +3,6 @@ AdamouizationMusic Website
 _____ FEATURES _____
 todo - add small descriptions for each page (mixtapes, mashups, playlists)
 todo - update terms page with 3rd party websites used and latest date
-todo - add google analytics
 
 _____ CODE DESIGN _____
 todo - hide google api key (keep local only add to .gitignore)
@@ -28,6 +27,7 @@ add tracklists to mixtapes and mashups? (as a dialogue form or expendable text)
 populate home page
 make background more readable (blur, darker, white opaque background in front, ...)
 populate about me page with picture & text
+add google analytics
 
 
 _____ SCRAPPED _____
