@@ -128,3 +128,17 @@ h1, h2 {
 .soundcloud-track-title {
     float: left;
 }
+
+/* Divs for the about me page used to divide it in 2 (pic left and text right) */
+.about-me-div {
+    width: 100%;
+    display: table;
+}
+.about-me-left-div {
+    width: 30%;
+    display: table-cell;
+}
+.about-me-right-div {
+    display: table-cell;
+    vertical-align: middle
+}
