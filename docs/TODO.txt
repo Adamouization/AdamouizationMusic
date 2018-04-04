@@ -1,8 +1,6 @@
 AdamouizationMusic Website
-List of features to add:
 
 _____ FEATURES _____
-todo - populate about page with picture, text, favourite DJs and music styles i listen to
 todo - add small descriptions for each page (mixtapes, mashups, playlists)
 todo - update terms page with 3rd party websites used and latest date
 todo - add google analytics
@@ -12,7 +10,9 @@ todo - hide google api key (keep local only add to .gitignore)
 
 _____ WEBSITE DESIGN _____
 todo - make background or text different for mobile version, div smaller (less playlists if mobile)
-todo - add logo to footer
+
+_____ FUTURE UPDATES _____
+todo - add favourite DJs and music styles i listen to in about me page
 
 _____ COMPLETED _____
 add social networks to footer
@@ -27,9 +27,11 @@ separate page specific stylesheets in different CSS files (reorganize stylesheet
 add tracklists to mixtapes and mashups? (as a dialogue form or expendable text)
 populate home page
 make background more readable (blur, darker, white opaque background in front, ...)
+populate about me page with picture & text
 
 
 _____ SCRAPPED _____
 add email form in contact section
 implement KnockOut JS ?
 make background scroll with rest of page. Repeat background image when end of it is reached
+add logo to footer

@@ -23,8 +23,8 @@ h1, h2 {
 }
 
 /* add black transparent background to legal terms page for readability */
-.legal-text {
-    background-color: rgba(0,0,0,0.25);
+.white-text-dark-background-div {
+    background-color: rgba(0,0,0,0.40);
     padding: 10px 15px;
     color: #FFF;
 }
@@ -112,9 +112,9 @@ h1, h2 {
 .about-me-picture-container {
     width: 400px;
     min-height: 400px;
-    float: left;
-    margin: 3px;
     padding: 3px;
+    float: right;
+    margin: 3px 100px 3px 3px;
 }
 .about-me-picture {
     max-width: 100%;
