@@ -1,5 +1,5 @@
 /**
- * Dynamically loads the header for the current page.
+ * Loads the header for the current page.
  */
 function loadHeader() {
     var fileName = getPageFilename();
@@ -11,7 +11,7 @@ function loadHeader() {
 }
 
 /**
- * Dynamically loads the navigation bar for the current page.
+ * Loads the navigation bar for the current page.
  */
 function loadNavbar() {
     var div = document.getElementById("navbarResponsive"),
@@ -179,7 +179,7 @@ function loadNavbar() {
 }
 
 /**
- * Dynamically loads the footer for the current page.
+ * Loads the footer for the current page.
  */
 function loadFooter() {
     var fileName = getPageFilename();
@@ -191,7 +191,18 @@ function loadFooter() {
 }
 
 /**
- * Dynamically loads either the full web browser view or the mobile view for the content of the Contact page.
+ * Loads either the full web browser view or the mobile view for the content of the Home page.
+ */
+function loadHomePageContent() {
+    if (isMobile()) {
+        $("#home-page-contents").load("views/pages/page-contents/home-mobile.html");
+    } else {
+        $("#home-page-contents").load("views/pages/page-contents/home-full.html");
+    }
+}
+
+/**
+ * Loads either the full web browser view or the mobile view for the content of the Contact page.
  */
 function loadContactPageContent() {
     if (isMobile()) {
@@ -202,7 +213,7 @@ function loadContactPageContent() {
 }
 
 /**
- * Dynamically loads either the full web browser view or the mobile view for the content of the About page.
+ * Loads either the full web browser view or the mobile view for the content of the About page.
  */
 function loadAboutPageContent() {
     if (isMobile()) {
@@ -213,7 +224,7 @@ function loadAboutPageContent() {
 }
 
 /**
- * Dynamically loads either the full web browser view or the mobile view for the content of the About page.
+ * Loads either the full web browser view or the mobile view for the content of the About page.
  */
 function loadPlaylistsPageContent() {
     if (isMobile()) {
