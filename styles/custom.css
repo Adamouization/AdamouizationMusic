@@ -60,6 +60,9 @@ h1, h2, h3, h4 {
 #google_map_mobile { /* the map itself*/
     height: 250px;
     width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Contact page containers, used to divided page vertically in 2 halves in order to center the map and contact box */
@@ -93,6 +96,7 @@ h1, h2, h3, h4 {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    max-width: 400px;
 }
 .single-contact-container {
     margin: 30px;
@@ -127,6 +131,7 @@ h1, h2, h3, h4 {
 }
 .about-me-picture-container-mobile {
     width: 100%;
+    max-width: 450px;
     display: block;
     margin: 0 auto;
 }
