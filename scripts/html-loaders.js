@@ -211,3 +211,14 @@ function loadAboutPageContent() {
         $("#about-page-contents").load("page-contents/about-full.html");
     }
 }
+
+/**
+ * Dynamically loads either the full web browser view or the mobile view for the content of the About page.
+ */
+function loadPlaylistsPageContent() {
+    if (isMobile()) {
+        $("#playlist-page-contents").load("page-contents/playlists-mobile.html");
+    } else {
+        $("#playlist-page-contents").load("page-contents/playlists-full.html");
+    }
+}
