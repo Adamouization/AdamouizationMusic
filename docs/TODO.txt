@@ -1,7 +1,7 @@
 AdamouizationMusic Website
 
 _____ FEATURES _____
-todo - add small descriptions for each page (mixtapes, mashups, playlists) in a popup (click on information icon)
+[completed]
 
 _____ CODE DESIGN _____
 [completed]
@@ -12,6 +12,8 @@ todo - don't show the logo if mobile or tablet view
 _____ FUTURE UPDATES _____
 todo - add favourite DJs and music styles i listen to in about me page
 todo - find an elegant way of showing tracklist on mobile views
+todo - add instructions on how to install website on home page (iphone and android)
+todo - add social network feeds
 
 _____ COMPLETED _____
 add social networks to footer
@@ -39,3 +41,4 @@ make background scroll with rest of page. Repeat background image when end of it
 add logo to footer
 hide google api key (keep local only add to .gitignore)
 no popup for mobile tracklist, implement a fullscreen overlay instead
+add small descriptions for each page (mixtapes, mashups, playlists) in a popup (click on information icon)
