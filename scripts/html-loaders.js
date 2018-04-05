@@ -233,3 +233,14 @@ function loadPlaylistsPageContent() {
         $("#playlist-page-contents").load("page-contents/playlists-full.html");
     }
 }
+
+/**
+ * Loads either the full web browser view or the mobile view for the content of the Terms page.
+ */
+function loadTermsPageContent() {
+    if (isMobile()) {
+        $("#terms-page-contents").load("page-contents/terms-mobile.html");
+    } else {
+        $("#terms-page-contents").load("page-contents/terms-full.html");
+    }
+}
