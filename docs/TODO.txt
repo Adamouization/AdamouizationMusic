@@ -3,7 +3,6 @@ AdamouizationMusic Website
 _____ FEATURES _____
 todo - add small descriptions for each page (mixtapes, mashups, playlists) in a popup (click on information icon)
 todo - update terms page with 3rd party websites used and latest date
-todo - no popup for mobile tracklist, implement a fullscreen overlay instead
 
 _____ CODE DESIGN _____
 [completed]
@@ -13,6 +12,7 @@ _____ WEBSITE DESIGN _____
 
 _____ FUTURE UPDATES _____
 todo - add favourite DJs and music styles i listen to in about me page
+todo - find an elegant way of showing tracklist on mobile views
 
 _____ COMPLETED _____
 add social networks to footer
@@ -38,3 +38,4 @@ implement KnockOut JS ?
 make background scroll with rest of page. Repeat background image when end of it is reached
 add logo to footer
 hide google api key (keep local only add to .gitignore)
+no popup for mobile tracklist, implement a fullscreen overlay instead
