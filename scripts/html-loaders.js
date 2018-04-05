@@ -235,13 +235,24 @@ function loadPlaylistsPageContent() {
 }
 
 /**
- * Loads either the full web browser view or the mobile view for the content of the About page.
+ * Loads either the full web browser view or the mobile view for the content of the Mixtape page.
  */
 function loadMixtapesPageContent() {
     if (isMobile()) {
         $("#mixtapes-page-contents").load("page-contents/mixtapes-mobile.html");
     } else {
         $("#mixtapes-page-contents").load("page-contents/mixtapes-full.html");
+    }
+}
+
+/**
+ * Loads either the full web browser view or the mobile view for the content of the Mashups page.
+ */
+function loadMashupsPageContent() {
+    if (isMobile()) {
+        $("#mashups-page-contents").load("page-contents/mashups-mobile.html");
+    } else {
+        $("#mashups-page-contents").load("page-contents/mashups-full.html");
     }
 }
 
