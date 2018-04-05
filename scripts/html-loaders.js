@@ -235,6 +235,17 @@ function loadPlaylistsPageContent() {
 }
 
 /**
+ * Loads either the full web browser view or the mobile view for the content of the About page.
+ */
+function loadMixtapesPageContent() {
+    if (isMobile()) {
+        $("#mixtapes-page-contents").load("page-contents/mixtapes-mobile.html");
+    } else {
+        $("#mixtapes-page-contents").load("page-contents/mixtapes-full.html");
+    }
+}
+
+/**
  * Loads either the full web browser view or the mobile view for the content of the Terms page.
  */
 function loadTermsPageContent() {
