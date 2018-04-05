@@ -161,3 +161,16 @@ h1, h2, h3, h4 {
     display: table-cell;
     vertical-align: middle
 }
+
+/* Create an elegant list with each element floating on top of each other for the credits page */
+.credits-column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+/* Clear floats after the columns */
+.credits-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

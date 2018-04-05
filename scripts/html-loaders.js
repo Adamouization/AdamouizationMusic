@@ -175,6 +175,27 @@ function loadNavbar() {
             "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"contact.html\">Contact</a>\n" +
             "                </li>\n" +
             "            </ul>";
+    } else if (filename.indexOf("credits") !== -1) {
+        div.innerHTML += "<ul class=\"navbar-nav mx-auto\">\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"../../index.html\">Home</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"mixtapes.html\">Mixtapes</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"mashups.html\">Mashups</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"playlists.html\">Playlists</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"about.html\">About</a>\n" +
+            "                </li>\n" +
+            "                <li class=\"nav-item px-lg-4\">\n" +
+            "                    <a class=\"nav-link text-uppercase text-expanded\" href=\"contact.html\">Contact</a>\n" +
+            "                </li>\n" +
+            "            </ul>";
     }
 }
 
@@ -202,7 +223,7 @@ function loadHomePageContent() {
 }
 
 /**
- * Loads either the full web browser view or the mobile view for the content of the Mixtape page.
+ * Loads either the full web browser view or the mobile view for the content of the Mixtapes page.
  */
 function loadMixtapesPageContent() {
     if (isMobile()) {
@@ -224,7 +245,7 @@ function loadMashupsPageContent() {
 }
 
 /**
- * Loads either the full web browser view or the mobile view for the content of the About page.
+ * Loads either the full web browser view or the mobile view for the content of the Playlists page.
  */
 function loadPlaylistsPageContent() {
     if (isMobile()) {
@@ -264,5 +285,16 @@ function loadTermsPageContent() {
         $("#terms-page-contents").load("page-contents/terms-mobile.html");
     } else {
         $("#terms-page-contents").load("page-contents/terms-full.html");
+    }
+}
+
+/**
+ * Loads either the full web browser view or the mobile view for the content of the Credits page.
+ */
+function loadCreditsPageContent() {
+    if (isMobile()) {
+        $("#credits-page-contents").load("page-contents/credits-mobile.html");
+    } else {
+        $("#credits-page-contents").load("page-contents/credits-full.html");
     }
 }
