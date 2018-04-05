@@ -1,11 +1,11 @@
 AdamouizationMusic Website
 
 _____ FEATURES _____
-todo - add small descriptions for each page (mixtapes, mashups, playlists)
+todo - add small descriptions for each page (mixtapes, mashups, playlists) in a popup (click on information icon)
 todo - update terms page with 3rd party websites used and latest date
 
 _____ CODE DESIGN _____
-todo - hide google api key (keep local only add to .gitignore)
+[finished]
 
 _____ WEBSITE DESIGN _____
 todo - make background or text different for mobile version, div smaller (less playlists if mobile)
@@ -35,3 +35,4 @@ add email form in contact section
 implement KnockOut JS ?
 make background scroll with rest of page. Repeat background image when end of it is reached
 add logo to footer
+hide google api key (keep local only add to .gitignore)
