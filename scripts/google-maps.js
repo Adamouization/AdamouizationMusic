@@ -2,8 +2,7 @@
  * Creates a Google Map map and adds markers on it.
  */
 function initMap() {
-
-    // map locations
+    // map location markers
     var locations = [
         {
             name: 'Monaco',
@@ -74,7 +73,7 @@ function loadGoogleMapsUrl() {
 
 /**
  * Retrieves the google map api key from a txt file.
- * @returns {{fileContents: string, init: init}}
+ * @returns {string}
  */
 function getGoogleMapsApiKey() {
     // todo - implement a way of reading from file
