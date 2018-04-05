@@ -202,39 +202,6 @@ function loadHomePageContent() {
 }
 
 /**
- * Loads either the full web browser view or the mobile view for the content of the Contact page.
- */
-function loadContactPageContent() {
-    if (isMobile()) {
-        $("#contact-page-contents").load("page-contents/contact-mobile.html");
-    } else {
-        $("#contact-page-contents").load("page-contents/contact-full.html");
-    }
-}
-
-/**
- * Loads either the full web browser view or the mobile view for the content of the About page.
- */
-function loadAboutPageContent() {
-    if (isMobile()) {
-        $("#about-page-contents").load("page-contents/about-mobile.html");
-    } else {
-        $("#about-page-contents").load("page-contents/about-full.html");
-    }
-}
-
-/**
- * Loads either the full web browser view or the mobile view for the content of the About page.
- */
-function loadPlaylistsPageContent() {
-    if (isMobile()) {
-        $("#playlist-page-contents").load("page-contents/playlists-mobile.html");
-    } else {
-        $("#playlist-page-contents").load("page-contents/playlists-full.html");
-    }
-}
-
-/**
  * Loads either the full web browser view or the mobile view for the content of the Mixtape page.
  */
 function loadMixtapesPageContent() {
@@ -253,6 +220,39 @@ function loadMashupsPageContent() {
         $("#mashups-page-contents").load("page-contents/mashups-mobile.html");
     } else {
         $("#mashups-page-contents").load("page-contents/mashups-full.html");
+    }
+}
+
+/**
+ * Loads either the full web browser view or the mobile view for the content of the About page.
+ */
+function loadPlaylistsPageContent() {
+    if (isMobile()) {
+        $("#playlist-page-contents").load("page-contents/playlists-mobile.html");
+    } else {
+        $("#playlist-page-contents").load("page-contents/playlists-full.html");
+    }
+}
+
+/**
+ * Loads either the full web browser view or the mobile view for the content of the About page.
+ */
+function loadAboutPageContent() {
+    if (isMobile()) {
+        $("#about-page-contents").load("page-contents/about-mobile.html");
+    } else {
+        $("#about-page-contents").load("page-contents/about-full.html");
+    }
+}
+
+/**
+ * Loads either the full web browser view or the mobile view for the content of the Contact page.
+ */
+function loadContactPageContent() {
+    if (isMobile()) {
+        $("#contact-page-contents").load("page-contents/contact-mobile.html");
+    } else {
+        $("#contact-page-contents").load("page-contents/contact-full.html");
     }
 }
 
