@@ -125,6 +125,11 @@ h1, h2 {
     float: right;
     margin: 3px 100px 3px 3px;
 }
+.about-me-picture-container-mobile {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
 .about-me-picture {
     max-width: 100%;
     border-radius: 50%;

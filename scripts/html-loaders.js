@@ -195,9 +195,19 @@ function loadFooter() {
  */
 function loadContactPageContent() {
     if (isMobile()) {
-        console.log("ismobile");
-        $("#about-page-contents").load("page-contents/contact-mobile.html");
+        $("#contact-page-contents").load("page-contents/contact-mobile.html");
     } else {
-        $("#about-page-contents").load("page-contents/contact-full.html");
+        $("#contact-page-contents").load("page-contents/contact-full.html");
+    }
+}
+
+/**
+ * Dynamically loads either the full web browser view or the mobile view for the content of the About page.
+ */
+function loadAboutPageContent() {
+    if (isMobile()) {
+        $("#about-page-contents").load("page-contents/about-mobile.html");
+    } else {
+        $("#about-page-contents").load("page-contents/about-full.html");
     }
 }
