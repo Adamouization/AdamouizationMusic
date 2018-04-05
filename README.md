@@ -5,7 +5,14 @@ AdamouizationMusic
 You can visit the website live here: [adamouizationmusic.jaamour.com](http://adamouizationmusic.jaamour.com/)
 
 #### Screenshot
-![Screenshot software](images/screenshots/home.png)
+
+###### Desktop screnshots
+![desktop home page](images/screenshots/home.png)
+
+![desktop home page](images/screenshots/playlists.png)
+
+###### Mobile screenshots
+![mobile playlists page](images/screenshots/mobile.png)
 
 ## Download
 * [Version 1.0](https://github.com/Adamouization/AdamouizationMusic/archive/master.zip)
@@ -23,6 +30,11 @@ $ open index.html
 # PC
 $ firefox index.html
 ```
+
+## Challenge
+
+The main goal/challenge of building this website was to write the code using only pure Javascript, CSS and HTML.
+No frameworks were used to create this website, with Bootstrap and JQuery being the only external libraries used.
 
 ## License 
 * see [LICENSE](https://github.com/Adamouization/AdamouizationMusic/blob/master/LICENSE) file
