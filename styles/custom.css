@@ -16,6 +16,9 @@ hr {
 .page-div {
     padding: 15px 40px;
 }
+.page-mobile-div {
+    padding: 5px 10px;
+}
 
 /* Display headers text in white */
 h1, h2 {
@@ -51,6 +54,12 @@ h1, h2 {
     width: 50%;
     float: right;
     margin-right: 50px;
+}
+
+/* google maps div for the mobile view */
+#google_map_mobile { /* the map itself*/
+    height: 250px;
+    width: 100%;
 }
 
 /* Contact page containers, used to divided page vertically in 2 halves in order to center the map and contact box */

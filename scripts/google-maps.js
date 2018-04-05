@@ -17,14 +17,30 @@ function initMap() {
         }
 
     ];
+
+    // map setup for mobile or full view, including the map div id, the zoom level and the longitudinal center
+    var googleMapsDivId = "",
+        mapZoom = 0,
+        centerLng = 0;
+    if (isMobile()) {
+        googleMapsDivId = "google_map_mobile";
+        mapZoom = 4;
+        centerLng = 1.199;
+    } else {
+        googleMapsDivId = "google_map";
+        mapZoom = 5;
+        centerLng =  3.199;
+    }
+
+    // center of the map
     var center = {
         lat: 47.812,
-        lng: 3.199
+        lng: centerLng
     };
 
     // create the map with initial settings
-    var map = new google.maps.Map(document.getElementById('google_map'), {
-        zoom: 5,
+    var map = new google.maps.Map(document.getElementById(googleMapsDivId), {
+        zoom: mapZoom,
         center: center
     });
 

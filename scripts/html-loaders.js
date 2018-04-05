@@ -189,3 +189,15 @@ function loadFooter() {
         $("#footer").load("../shared/footer-pages.html");
     }
 }
+
+/**
+ * Dynamically loads either the full web browser view or the mobile view for the content of the Contact page.
+ */
+function loadContactPageContent() {
+    if (isMobile()) {
+        console.log("ismobile");
+        $("#about-page-contents").load("page-contents/contact-mobile.html");
+    } else {
+        $("#about-page-contents").load("page-contents/contact-full.html");
+    }
+}
