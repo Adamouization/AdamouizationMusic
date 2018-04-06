@@ -14,6 +14,7 @@ todo - add favourite DJs and music styles i listen to in about me page
 todo - find an elegant way of showing tracklist on mobile views
 todo - add instructions on how to install website on home page (iphone and android)
 todo - add social network feeds
+todo - add iphone/android home screen website icon
 
 _____ COMPLETED _____
 add social networks to footer
