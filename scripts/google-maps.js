@@ -95,5 +95,5 @@ function getGoogleMapsApiKey() {
     // };
     // console.log("api key: " + GOOGLE_MAP_KEY);
     // return GOOGLE_MAP_KEY;
-    return "key_here";
+    return "AIzaSyBkNbdskxZttJJb8nucb92gwk8-fF5nCJE";
 }
