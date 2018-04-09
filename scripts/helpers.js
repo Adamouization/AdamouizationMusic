@@ -3,9 +3,14 @@
  * @returns {string}
  */
 function getPageFilename() {
-    var pathSplit = location.pathname.split("/"),
+    var pageFileName,
+        pathSplit = location.pathname.split("/"),
         index = pathSplit.length - 1;
-    return pathSplit[index];
+    pageFileName = pathSplit[index];
+    if (pageFileName === "") {
+        pageFileName = 'index';
+    }
+    return pageFileName
 }
 
 /**
