@@ -1,20 +1,18 @@
 AdamouizationMusic Website
 
-_____ FEATURES _____
-[completed]
+_____ CONTENT _____
+todo - add favourite DJs and music styles i listen to in about me page
+todo - add instructions on how to install website on home page (iphone and android)
+todo - add social network feeds
 
 _____ CODE DESIGN _____
-[completed]
+todo - elements in <head> of eacj html page common (import directly in head if possible in future)
 
 _____ WEBSITE DESIGN _____
 todo - don't show the logo if mobile or tablet view
-
-_____ FUTURE UPDATES _____
-todo - add favourite DJs and music styles i listen to in about me page
 todo - find an elegant way of showing tracklist on mobile views
-todo - add instructions on how to install website on home page (iphone and android)
-todo - add social network feeds
 todo - add iphone/android home screen website icon
+todo - make popup width fit the text inside (not hardcoded width)
 
 _____ COMPLETED _____
 add social networks to footer
