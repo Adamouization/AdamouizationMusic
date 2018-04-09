@@ -16,8 +16,8 @@ You can visit the website live here: [adamouizationmusic.jaamour.com](http://ada
 ![mobile playlists page](images/screenshots/mobile.png)
 
 ## Download
-* [Version 1.0.1](https://github.com/Adamouization/AdamouizationMusic/archive/master.zip)
-* [Version 1.0.0](https://github.com/Adamouization/AdamouizationMusic/blob/master/releases/AdamouizationMusic-v1.0.0-06042018.zip)
+* [Version 1.0.1](https://github.com/Adamouization/AdamouizationMusic/raw/master/releases/AdamouizationMusic-v1.0.1-09042018.zip)
+* [Version 1.0.0](https://github.com/Adamouization/AdamouizationMusic/raw/master/releases/AdamouizationMusic-v1.0.0-06042018.zip)
 
 ## Usage
 Clone the repository (or download the zipped project):
