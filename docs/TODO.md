@@ -14,8 +14,8 @@ AdamouizationMusic Website - TODO list
 #### Website Design
 * todo - don't show the logo if mobile or tablet view
 * todo - find an elegant way of showing tracklist on mobile views
-* todo - add iphone/android home screen website icon
 * todo - make popup width fit the text inside (not hardcoded width)
+* todo - update soundcloud iframes
 
 # Completed
 * add social networks to footer
@@ -35,6 +35,7 @@ AdamouizationMusic Website - TODO list
 * make background or text different for mobile version, div smaller (less playlists if mobile)
 * add duplicate html code (usually text for pages used on full and mobile view) in common html file
 * update terms page with 3rd party websites used and latest date
+* todo - add iphone/android home screen website icon
 
 # Abandoned
 * add email form in contact section
