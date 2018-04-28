@@ -19,6 +19,9 @@ function getPageFilename() {
 function showPopup(popupId) {
     var key = "";
     switch (popupId) {
+        case 'click-mixtape-avicii':
+            key = 'mixtape-avicii';
+            break;
         case 'click-mixtape-1':
             key = 'mixtape-1';
             break;
