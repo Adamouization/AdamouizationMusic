@@ -40,7 +40,8 @@ function initMap() {
     // create the map with initial settings
     var map = new google.maps.Map(document.getElementById(googleMapsDivId), {
         zoom: mapZoom,
-        center: center
+        center: center,
+        mapTypeId: 'terrain'
     });
 
     // create and place the markers on the map
