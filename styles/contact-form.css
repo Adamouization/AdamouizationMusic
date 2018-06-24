@@ -50,10 +50,10 @@ fieldset {
     cursor: pointer;
     width: 100%;
     border: none;
-    background: #e52033;
-    background: -moz-linear-gradient(top, #e52033 0%, #5122bf 100%);
-    background: -webkit-linear-gradient(top, #e52033 0%,#5122bf 100%);
-    background: linear-gradient(to bottom, #e52033 0%,#5122bf 100%);
+    background: rgba(229, 32, 51, 0.75);
+    background: -moz-linear-gradient(top, rgba(229, 32, 51, 0.75) 0%, #5122bf 100%);
+    background: -webkit-linear-gradient(top, rgba(229, 32, 51, 0.75) 0%,#5122bf 100%);
+    background: linear-gradient(to bottom, rgba(229, 32, 51, 0.75) 0%,#5122bf 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e52033', endColorstr='#5122bf',GradientType=0 );
     color: #FFF;
     margin: 0 0 5px;

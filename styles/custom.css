@@ -64,13 +64,18 @@ h1, h2, h3, h4 {
 }
 
 /* Contact page containers, used to divided page vertically in 2 halves in order to center the map and contact box */
+.contact-outer-container {
+    width: 90%;
+    max-height: 400px;
+    margin: 0 auto;
+}
 .contact-form-container {
-    width: 50%;
+    width: 45%;
     height: 100%;
     float: left;
 }
 .map-container {
-    margin-left: 52%;
+    margin-left: 55%;
 }
 
 /* Logo placed in navbar */
