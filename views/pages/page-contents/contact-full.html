@@ -1,7 +1,29 @@
 <div class="page-div">
     <h1 class="page-title">Contact</h1>
 
-    <div style="width: 100%; overflow: auto"> <!-- Div used to separate page in 2 centered halves -->
+    <div style=" width: 100%; max-height: 400px">
+
+        <!-- Contact form -->
+        <div class="contact-form-container">
+            <div class="container">
+                <form id="contact" action="https://formspree.io/adam@jaamour.com" method="POST">
+                    <h3 class="contact-form-title">Get In Touch!</h3>
+                    <fieldset>
+                        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                        <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
         <!-- Google Maps -->
         <div class="map-container">
             <div id="google_map"></div>
@@ -13,26 +35,6 @@
             </script>
         </div>
 
-        <!-- Contact details -->
-        <div class="contact-information-container">
-            <div style="float: left" class="contact-box">
-                <!-- email -->
-                <div class="single-contact-container">
-                    <a id="mail-icon" href="mailto:adam@jaamour.com"></a>
-                    <a class="contact-text" href="mailto:adam@jaamour.com">adam@jaamour.com</a>
-                </div>
-                <!-- UK phone number -->
-                <div class="single-contact-container">
-                    <div id="phone-icon"></div>
-                    <span class="contact-text">+44 7927 986941 (Bath, UK)</span>
-                </div>
-                <!-- French phone number -->
-                <div class="single-contact-container">
-                    <div id="phone-icon"></div>
-                    <span class="contact-text">+33 6 11 90 50 19 (Monaco)</span>
-                </div>
-            </div>
-        </div>
     </div>
 
 </div>

@@ -1,23 +1,23 @@
 <div class="page-mobile-div">
     <h2 class="page-title">Contact</h2>
 
-    <!-- Contact details -->
-    <div class="contact-box">
-        <!-- email -->
-        <div class="single-contact-container">
-            <a id="mail-icon" href="mailto:adam@jaamour.com"></a>
-            <a class="contact-text" href="mailto:adam@jaamour.com">adam@jaamour.com</a>
-        </div>
-        <!-- UK phone number -->
-        <div class="single-contact-container">
-            <div id="phone-icon"></div>
-            <span class="contact-text">+44 7927 986941 (Bath, UK)</span>
-        </div>
-        <!-- French phone number -->
-        <div class="single-contact-container">
-            <div id="phone-icon"></div>
-            <span class="contact-text">+33 6 11 90 50 19 (Monaco)</span>
-        </div>
+    <!-- Contact form -->
+    <div class="container">
+        <form id="contact" action="https://formspree.io/adam@jaamour.com" method="POST">
+            <h3 class="contact-form-title">Get In Touch!</h3>
+            <fieldset>
+                <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+        </form>
     </div>
 
     <hr>
