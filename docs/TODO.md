@@ -1,4 +1,4 @@
-AdamouizationMusic Website - TODO list
+Adam Jams Website - TODO list
 ======================================
 
 # TODO

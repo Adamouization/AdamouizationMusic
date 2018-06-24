@@ -1,9 +1,9 @@
 AdamouizationMusic
 ==================
 
-**AdamouizationMusic** is a website showcasing my Soundcloud posts and Apple Music playlists.
+**Adam Jams** is a website showcasing my Soundcloud posts and Apple Music playlists.
 
-You can visit the website live here: [adamouizationmusic.jaamour.com](http://adamouizationmusic.jaamour.com/)
+You can visit the website live here: [adamjams.jaamour.com](http://adamjams.jaamour.com/)
 
 #### Screenshot
 
