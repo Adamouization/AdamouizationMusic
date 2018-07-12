@@ -1,4 +1,5 @@
-![license](https://img.shields.io/github/license/mashape/apistatus.svg)
+[![author](https://img.shields.io/badge/author-Adam%20Jaamour-blue.svg)](http://www.adamjams.jaamour.com)
+[![GitHub license](https://img.shields.io/github/license/Adamouization/AdamouizationMusic.svg)](https://github.com/Adamouization/AdamouizationMusic/blob/master/LICENSE)
 
 AdamouizationMusic
 ==================
