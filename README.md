@@ -1,12 +1,4 @@
-[![GitHub issues](https://img.shields.io/github/issues/Adamouization/AdamouizationMusic.svg)](https://github.com/Adamouization/AdamouizationMusic/issues)
-[![GitHub forks](https://img.shields.io/github/forks/Adamouization/AdamouizationMusic.svg)](https://github.com/Adamouization/AdamouizationMusic/network)
-[![GitHub stars](https://img.shields.io/github/stars/Adamouization/AdamouizationMusic.svg)](https://github.com/Adamouization/AdamouizationMusic/stargazers)
-[![GitHub license](https://img.shields.io/github/license/Adamouization/AdamouizationMusic.svg)](https://github.com/Adamouization/AdamouizationMusic/blob/master/LICENSE)
-[![author](https://img.shields.io/badge/author-Adam%20Jaamour-lightgrey.svg)](http://www.adamjams.jaamour.com)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/Adamouization/AdamouizationMusic.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FAdamouization%2FAdamouizationMusic)
-
-AdamouizationMusic
-==================
+# AdamouizationMusic [![GitHub issues](https://img.shields.io/github/issues/Adamouization/AdamouizationMusic.svg)](https://github.com/Adamouization/AdamouizationMusic/issues) [![GitHub forks](https://img.shields.io/github/forks/Adamouization/AdamouizationMusic.svg)](https://github.com/Adamouization/AdamouizationMusic/network) [![GitHub stars](https://img.shields.io/github/stars/Adamouization/AdamouizationMusic.svg)](https://github.com/Adamouization/AdamouizationMusic/stargazers) [![GitHub license](https://img.shields.io/github/license/Adamouization/AdamouizationMusic.svg)](https://github.com/Adamouization/AdamouizationMusic/blob/master/LICENSE) [![author](https://img.shields.io/badge/author-Adam%20Jaamour-lightgrey.svg)](http://www.adamjams.jaamour.com) [![Twitter](https://img.shields.io/twitter/url/https/github.com/Adamouization/AdamouizationMusic.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FAdamouization%2FAdamouizationMusic)
 
 **Adam Jams** is a website showcasing my Soundcloud posts and Apple Music playlists.
 
