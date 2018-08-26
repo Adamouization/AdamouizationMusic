@@ -44,7 +44,8 @@ The main goal/challenge of building this website was to write the code using onl
 No frameworks were used to create this website, with Bootstrap and JQuery being the only external libraries used.
 
 ## To Do
-* see  [TODO](https://github.com/Adamouization/AdamouizationMusic/blob/master/docs/TODO.md) file.
+* see [TODO - Initial release](https://github.com/Adamouization/AdamouizationMusic/projects/1) project [completed].
+* see [TODO - Future release](https://github.com/Adamouization/AdamouizationMusic/projects/2) project.
 
 ## License 
 * see [LICENSE](https://github.com/Adamouization/AdamouizationMusic/blob/master/LICENSE) file.
